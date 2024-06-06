@@ -1,6 +1,32 @@
+/* quando o usuário clica em um tópico no menu de estilos de jogos, o tópico é grifado:
+*:target h2 {
+    background-color: rgb(173, 161, 161);
+} */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+article {
+    /* border-bottom: 1px solid #000; */ /* essa linha divisória entre os conteúdos não é necessária */
+    margin-bottom: 1.5em; */
+    padding-bottom: 1.5em;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5em;  
+}
+
 /* classe utilitaria */
 .w-100 {
     width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 760px;
 }
 
 .mainHeader {
@@ -34,4 +60,12 @@
 
 .footer a {
     color: #fff;
+}
+
+figcaption {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.4;
+    font-style: italic;
+    font-weight: 400;
 }
